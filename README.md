@@ -1,6 +1,22 @@
 # ethstats
 
-> A Vue.js project
+> A little vue.js project to test the possibilities of web3.js
+
+## Demo
+Check the demo at [https://eth-stats.herokuapp.com/](https://eth-stats.herokuapp.com/) and be sure to have Metamask installed
+
+## About
+
+This is a little project to test the possibilities of web3.js. For now, it does the following things:
+
+- Connects to the ETH network
+- Retrieves the latest 12 blocks
+- Continues to retrieve blocks as they are mined. There is a maximum buffer size of 100 blocks to prevails the performance
+- Calculates a bunch of stats about the blocks. Ideally, those stats calculations are done in a Web worker to free the main thread.
+- You can check the details of a block.
+- You can check the transactions of a block
+
+A lot of more interesting things will be added for sure!
 
 ## Build Setup
 
