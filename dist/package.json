@@ -1,0 +1,10 @@
+{
+  "name": "ethstats",
+  "version": "1.0.0",
+  "description": "Fun project to test web3js",
+  "scripts": {
+    "postinstall": "npm install express"
+  },
+  "author": "Adrian Latorre",
+  "license": "MIT"
+}
